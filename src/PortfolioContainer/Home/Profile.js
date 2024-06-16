@@ -1,5 +1,5 @@
 import React from 'react';
-// import Typical from 'react-typical';
+import Typical from 'react-typical';
 
 export default function Profile() {
   return (
@@ -29,7 +29,7 @@ export default function Profile() {
             </span>
           </div>
 
-          {/* <div className="profile-details-role">
+          <div className="profile-details-role">
             <span className="primary-text">
                 {" "}
                 <h1>
@@ -50,7 +50,7 @@ export default function Profile() {
                 />
                 </h1>
             </span>
-          </div> */}
+          </div>
 
         </div>
       </div>
@@ -58,3 +58,4 @@ export default function Profile() {
   );
 }
 
+// "react-typical": "^0.1.0",
