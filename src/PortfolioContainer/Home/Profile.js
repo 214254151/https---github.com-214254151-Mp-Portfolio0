@@ -19,7 +19,14 @@ export default function Profile() {
             <a href="https://github.com/214254151">
               <i class="bi bi-github"></i>
             </a>
-        
+
+
+
+
+            <i className='fa fa-facebook-square'></i>
+            <i className='fa fa-instagram'></i>
+             
+             
           </div>
 
           <div className="profile-details-name">
@@ -37,15 +44,18 @@ export default function Profile() {
                 loop={Infinity}
                 steps={[
                     "Enthusiastic Dev", 
-                    1000, 
+                    1900, 
+                    "UI/UX Designer",
+                    1900,
                     "Full Stack Developer ", 
-                    1000, 
+                    1900, 
                     "Cross Platform Dev", 
-                    1000, 
+                    1900, 
                     "React/Angular Dev", 
-                    1000, 
+                    1900, 
                     "Java Developer", 
-                    1000, 
+                    1900, 
+                    
                 ]}
                 />
                 </h1>
