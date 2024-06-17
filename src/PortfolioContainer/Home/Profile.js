@@ -52,7 +52,7 @@ export default function Profile() {
                   ]}
                 />
               </h1>
-              <span className="profile-role-tagline">profile-role-tagline---------------------</span>
+              <span className="profile-role-tagline">profile-role-tagline---------------fturturtuertuu------</span>
             </span>
           </div>
           <div className="profile-options">
