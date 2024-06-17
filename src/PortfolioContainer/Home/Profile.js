@@ -8,7 +8,7 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz ">
-            <div className="colz-icon">
+            <div className="colz-icons">
             <a href="https://www.youtube.com/watch?v=ilw_g_rxtVc">
               <i class="bi bi-youtube"></i>
             </a>

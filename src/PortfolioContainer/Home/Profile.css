@@ -59,15 +59,33 @@
     justify-content: center;
     box-shadow: 0 1px 0px 0px var(--white);
     border-radius: 50%;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     margin: 0 0px 0 100px;
 }
 
 .profile-picture-background{
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     background-image: url(../../assets/Home/Profile.png);
     background-size:cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile-picture-background:hover{
+    transform: scale(1.07s);
+    transition: 1s ease-out;
+}
+
+.colz .colz-icons i{
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    padding-left: 0px;
+}
+
+.colz .colz-icons i:hover{
+    transform: scale(1.5);
 
 }
