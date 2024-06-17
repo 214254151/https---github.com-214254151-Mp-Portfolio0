@@ -60,7 +60,10 @@ export default function Profile() {
             <button className="btn primary-btn">
             {""}Hire Me {""}
             </button>
-            < a href='#'></a>
+            < a href='ABONGILE-TSHOPI-CV.pdf' download='Abongile Tshopi.pdf'>
+            <button className="btn highlighted-btn">
+            </button>
+            </a>
           </div>
         </div>
       </div>
