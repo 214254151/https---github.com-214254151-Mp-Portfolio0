@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import './Profile.css'
 
 export default function Profile() {
   return (
@@ -7,6 +8,7 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz ">
+            <div className="colz-icon">
             <a href="https://www.youtube.com/watch?v=ilw_g_rxtVc">
               <i class="bi bi-youtube"></i>
             </a>
@@ -16,11 +18,10 @@ export default function Profile() {
             </a>
 
             <a href="https://github.com/214254151">
-              <i
-                class="bi 
-              bi-github"
-              ></i>
-            </a>
+              <i class="bi bi-github"></i>
+              </a>
+            
+            </div>
           </div>
 
           <div className="profile-details-name">
@@ -51,20 +52,20 @@ export default function Profile() {
                   ]}
                 />
               </h1>
-              <span className="profile-role-tagline">
-              profile-role-tagline
-              </span>
+              <span className="profile-role-tagline">profile-role-tagline---------------------</span>
             </span>
           </div>
           <div className="profile-options">
             <button className="btn primary-btn">
-            {""}Hire Me {""}
+              {""}Hire Me {""}
             </button>
-            < a href='ABONGILE-TSHOPI-CV.pdf' download='Abongile Tshopi.pdf'>
-            <button className="btn highlighted-btn">
-            </button>
+            <a href="ABONGILE-TSHOPI-CV.pdf" download="Abongile Tshopi.pdf">
+              <button className="btn highlighted-btn"> Get Resume</button>
             </a>
           </div>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background"></div>
         </div>
       </div>
     </div>
