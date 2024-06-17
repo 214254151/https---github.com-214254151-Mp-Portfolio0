@@ -1,13 +1,15 @@
 import React from "react" 
-import Profiler  from "./Profile"
-import Footer from "./Footer/Footer.js"
+import "./Footer.css"
+
 
  export default function Footer(){
     return(
-        <div className="home-container">
+        <div className="footer-container">
+            <div className="footer-parent">
+                <img src={require('../../../assets/Home/shape-bg.png')} 
+                alt="no internet connection"/>
 
-
+            </div>
         </div>
     )
-
  }
