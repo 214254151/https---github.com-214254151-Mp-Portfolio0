@@ -17,16 +17,9 @@ export default function Profile() {
             </a>
 
             <a href="https://github.com/214254151">
-              <i class="bi bi-github"></i>
+              <i class="bi 
+              bi-github"></i>
             </a>
-
-
-
-
-            <i className='fa fa-facebook-square'></i>
-            <i className='fa fa-instagram'></i>
-             
-             
           </div>
 
           <div className="profile-details-name">
@@ -68,4 +61,3 @@ export default function Profile() {
   );
 }
 
-// "react-typical": "^0.1.0",
