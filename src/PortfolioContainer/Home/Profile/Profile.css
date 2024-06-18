@@ -76,6 +76,7 @@
 .profile-picture-background:hover{
     transform: scale(1.07s);
     transition: 1s ease-out;
+    
 }
 
 .colz .colz-icons i{
