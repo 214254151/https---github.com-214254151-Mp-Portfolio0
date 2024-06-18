@@ -45,7 +45,7 @@ export default function Profile() {
                     1900,
                     "Cross Platform Dev",
                     1900,
-                    "React/Angular Dev",
+                    "React Dev",
                     1900,
                     "Java Developer",
                     1900,
