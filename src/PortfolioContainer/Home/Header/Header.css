@@ -40,9 +40,9 @@
     color: var(--white);
   }
 
-  /* .selected-header-option{
+  .selected-header-option{
     color: var(--dark-orange);
-  } */
+  }
 
   /*IPAD PRO RESPONSIVENESS*/
 @media only screen and (max-width: 1110px) {
