@@ -1,10 +1,10 @@
 import React from "react";
 import "./ScreenHeading.css";
 
-export default function ScreenHeadind(props) {
+export default function ScreenHeading(props) {
   return (
     <div className="heading-container">
-      <div className="scree-heading">
+      <div className="screen-heading">
         <span>{props.title}</span>
       </div>
       {props.subHeading ? (
@@ -15,12 +15,11 @@ export default function ScreenHeadind(props) {
         <div></div>
       )}
       <div className="heading-sepertor">
-        <div className="seperator-line">
+        <div className="seperator-line"></div>
           <div className="seperator-blob">
             <div></div>
           </div>
         </div>
-      </div>
     </div>
   );
 }
