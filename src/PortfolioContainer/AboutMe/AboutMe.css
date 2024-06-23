@@ -17,7 +17,7 @@
 }
 .about-me-profile{
     width: 50%;
-    background-image: url("../../assets/AboutMe/me.jpg");
+    background-image: url("../../assets/AboutMe/aboutPic.jpeg");
 }
 .about-me-details{
     width: 48%;
@@ -64,7 +64,7 @@
       width: 88%;
     }
   }
-  
+
   @media only screen and (max-width: 898px) {
     .about-me-profile {
       display: none;
