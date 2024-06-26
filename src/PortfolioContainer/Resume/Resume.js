@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import ScrollService from "../../utilities/ScollService";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import Animations from "../../utilities/Animations";
+import "./Resume.css";
+
 
 
 const Resume = (props) => {
@@ -237,3 +239,10 @@ const Resume = (props) => {
 };
 
 export default Resume;
+
+
+
+
+// ----------------------------------------------------------------------------------------------------------------
+
+
