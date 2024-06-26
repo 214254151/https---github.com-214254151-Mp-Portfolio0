@@ -3,7 +3,7 @@ import Profile from "./Profile/Profile";
 import Footer from "./Footer/Footer";
 import "./Home.css";
 import Header from "./Header/Header";
-import AboutMe from "../AboutMe/AboutMe";
+
 
 
 export default function Home(){
@@ -12,9 +12,6 @@ export default function Home(){
             <Header/>
             <Profile/>
             <Footer/>
-            
-           
-        
         </div>
     )
 }
