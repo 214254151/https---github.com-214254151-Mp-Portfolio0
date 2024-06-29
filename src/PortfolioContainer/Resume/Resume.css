@@ -11,11 +11,12 @@
     display: flex;
     height: 360px;
     width: 1000px;
-    /* margin: 80px 0; */
+    margin: 80px 0;
   }
   
   .resume-bullets {
     box-shadow: 15px 0 9px -15px #1f2235;
+    border-radius: 35%;
     height: 100%;
     width: 320px;
   }
@@ -74,12 +75,13 @@
   }
   
   .bullet-logo {
-    height: 16px;
+    height: 30px;
     margin: 0 30px 0 0;
+    background-color: #ff5823;
   }
   
   .bullet-icons {
-    width: 34px;
+    width: 94px;
     height: 100%;
     z-index: 1;
     background-color: #1f2235;
@@ -88,7 +90,8 @@
   
   .selected-bullet {
     color: var(--white);
-    width: 100%;
+    width: 50%;
+    opacity: 80%;
   }
   
   .resume-screen-container {
@@ -143,7 +146,7 @@
   }
   
   .heading-date {
-    background-color: #ff5823;
+    background-color:  #ffb703;
     padding: 4px 12px;
     font-size: 14px;
     border-radius: 14px;
@@ -169,14 +172,14 @@
     position: relative;
     height: 15px;
     width: 70%;
-    background-color: #ff5823;
+    background-color: #1f2235;
   }
   
   .skill-percentage .active-percentage-bar {
     height: 15px;
     transition: 0.8s ease;
     position: absolute;
-    background-color: #1f2235;
+    background-color: #ffb703;
   }
   
   .skill-parent span {

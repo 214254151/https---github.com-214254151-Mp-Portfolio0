@@ -194,8 +194,8 @@ const Resume = (props) => {
         key={index}
       >
         <img
-          className="bullet-icon"
-          src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
+          className="bullet-logo"
+          src={require(`../../assets/Resume/bxs-school.svg`).default}
           alt="Oops... no internet connection"
         />
       </div>
