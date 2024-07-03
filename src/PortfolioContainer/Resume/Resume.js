@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ScrollService from "../../utilities/ScollService";
+import ScrollService from "../../utilities/ScrollService";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import Animations from "../../utilities/Animations";
 import "./Resume.css";

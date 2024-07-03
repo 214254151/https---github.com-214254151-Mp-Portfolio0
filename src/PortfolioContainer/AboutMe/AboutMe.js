@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
-import ScrollService from "../../utilities/ScollService";
+import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import { Highlights } from "react-bootstrap-icons";
 import "./AboutMe.css";
