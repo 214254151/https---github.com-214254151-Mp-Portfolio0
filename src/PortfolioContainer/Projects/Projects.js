@@ -24,6 +24,30 @@ export default function Projects(props) {
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
+    const options = {
+        loop: true,
+        margin: 0,
+        nav: true,
+        animateIn: "bounceInRight",
+        animateOut: "bounceOutRight",
+        dots: true,
+        autoplay: true,
+        smartSpeed: 15000,
+
+        Responsive: {
+            0: {
+                items: 1,
+            },
+            768:{
+                items: 1,
+            },
+            1000:{
+                items: 3,
+            },
+        }
+    }
+
+
   return (
     <div>
       <ScreenHeading title={"Projects"} subHeading={"Find out abour my "} />
@@ -31,7 +55,7 @@ export default function Projects(props) {
       <section className="project-section" id={props.id || ""}>
         <div className="container">
           <div className="row">
-            <OwlCarousel className="owl-carousel" id="projects-carousel">
+            <OwlCarousel className="owl-carousel" id="projects-carousel"{...options}>
               <div className="col-lg-12">
                 <div className="projects-item">
                   <div className="project-description">
