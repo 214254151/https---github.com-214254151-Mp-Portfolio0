@@ -1,9 +1,19 @@
 import React from "react";
+import OwlCarousel from "react-owl-carousel"
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+import "./Projects.css"
+
+
+import Figma from "../../assets/img/projects/Figma.png"
+import Marvelaap from "../../assets/img/projects/Marvelaap.jpg"
+import ps from "../../assets/img/projects/ps.png"
+import python from "../../assets/img/projects/python.png"
+import react from "../../assets/img/projects/react.png"
+
 
 export default function Projects(props) {
   let fadeInScreenHandler = (screen) => {
@@ -21,7 +31,7 @@ export default function Projects(props) {
       <section className="project-section" id={props.id || ""}>
         <div className="container">
           <div className="row">
-            <owlCarousel className="owl-carousel" id="projects-carousel">
+            <OwlCarousel className="owl-carousel" id="projects-carousel">
               <div className="col-lg-12">
                 <div className="projects-item">
                   <div className="project-description">
@@ -46,7 +56,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="img/projects/Figma.png"
+                      src="../../assets/img/projects/Figma.png"
                       alt="no internet connection"
                     ></img>
                     <h5>Figma design</h5>
@@ -81,7 +91,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="img/projects/Figma.png"
+                    //   src="../../assets/img/projects/Marmelaap.jpg"
                       alt="no internet connection"
                     ></img>
                     <h5>Figma design</h5>
@@ -116,7 +126,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="img/projects/Figma.png"
+                    //   src="../../assets/img/projects/pyhton.png"
                       alt="no internet connection"
                     ></img>
                     <h5>Figma design</h5>
@@ -147,7 +157,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="img/projects/Figma.png"
+                    //   src="../../assets/img/projects/ps.png"
                       alt="no internet connection"
                     ></img>
                     <h5>Figma design</h5>
@@ -155,7 +165,7 @@ export default function Projects(props) {
                   </div>
                 </div>
               </div>
-            </owlCarousel>
+            </OwlCarousel>
           </div>
         </div>
       </section>
