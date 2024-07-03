@@ -37,7 +37,14 @@ export default function Projects(props) {
                   <div className="project-description">
                     <p>
                       <i className="fa fa-quote-left" /> asdfasdfaghspify
-                      apiyupwqyaepoqwyetgqw qwp otquowty;oqwy ;wet{" "}
+                      apiyupwqyaepoqwyetgqw qwp otquowtytujhhhhhhhhhhhhh
+                      hhhhhhhhhhhhhhhhh
+                      hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                      hhhhhhhhhhhhhhhhh
+                      hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                      hhhhhhhhhhhhhhhhhhhhhhhh
+                      udfghjdfgjhdfgjdfgjsfgjdgfjdfgjdfgjdfgjdfgj
+                      dfgjdfgjdfgj;oqwy ;wet{" "}
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="start list-unstyled">
@@ -56,7 +63,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="../../assets/img/projects/Figma.png"
+                      src="Figma.png"
                       alt="no internet connection"
                     ></img>
                     <h5>Figma design</h5>
@@ -91,7 +98,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="../../assets/img/projects/Marmelaap.jpg"
+                      src="Marvelaap.jpg"
                       alt="no internet connection"
                     ></img>
                     <h5>MarvelApp design</h5>
@@ -126,14 +133,20 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="../../assets/img/projects/pyhton.png"
+                      src="python.png"
                       alt="no internet connection"
                     ></img>
                     <h5>Bank App</h5>
                     <p>Python banking app</p>
                   </div>
                 </div>
-              </div><div className="col-lg-12">
+                </div>
+
+
+
+
+                
+              <div className="col-lg-12">
                 <div className="projects-item">
                   <div className="project-description">
                     <p>
@@ -157,7 +170,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="../../assets/img/projects/ps.png"
+                      src="ps.png"
                       alt="no internet connection"
                     ></img>
                     <h5>Calculator</h5>
@@ -165,6 +178,40 @@ export default function Projects(props) {
                   </div>
                 </div>
               </div>
+
+              <div className="col-lg-12">
+                <div className="projects-item">
+                  <div className="project-description">
+                    <p>
+                      <i className="fa fa-quote-left" /> asdfasdfaghspify
+                      apiyupwqyaepoqwyetgqw qwp otquowty;oqwy ;wet{" "}
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="start list-unstyled">
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+
+                      <li>
+                        <i className="fa fa-star-half-alt" />
+                      </li>
+
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="project-infor">
+                    <img
+                      src="react.png"
+                      alt="no internet connection"
+                    ></img>
+                    <h5>Bakery app</h5>
+                    <p>Bakery website showcasing Snesh's bakery products</p>
+                  </div>
+                </div>
+                </div>
+
             </OwlCarousel>
           </div>
         </div>
