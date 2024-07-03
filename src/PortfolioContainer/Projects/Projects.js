@@ -91,11 +91,11 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                    //   src="../../assets/img/projects/Marmelaap.jpg"
+                      src="../../assets/img/projects/Marmelaap.jpg"
                       alt="no internet connection"
                     ></img>
-                    <h5>Figma design</h5>
-                    <p>Design prototype for a website</p>
+                    <h5>MarvelApp design</h5>
+                    <p>Design prototype for a restaurant App</p>
                   </div>
                 </div>
               </div>
@@ -126,11 +126,11 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                    //   src="../../assets/img/projects/pyhton.png"
+                      src="../../assets/img/projects/pyhton.png"
                       alt="no internet connection"
                     ></img>
-                    <h5>Figma design</h5>
-                    <p>Design prototype for a website</p>
+                    <h5>Bank App</h5>
+                    <p>Python banking app</p>
                   </div>
                 </div>
               </div><div className="col-lg-12">
@@ -157,11 +157,11 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                    //   src="../../assets/img/projects/ps.png"
+                      src="../../assets/img/projects/ps.png"
                       alt="no internet connection"
                     ></img>
-                    <h5>Figma design</h5>
-                    <p>Design prototype for a website</p>
+                    <h5>Calculator</h5>
+                    <p>Python finantial caltulator app</p>
                   </div>
                 </div>
               </div>
