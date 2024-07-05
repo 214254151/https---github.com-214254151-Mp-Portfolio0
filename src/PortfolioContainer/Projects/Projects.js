@@ -13,6 +13,7 @@ import Marvelaap from "../../assets/img/projects/Marvelaap.jpg"
 import ps from "../../assets/img/projects/ps.png"
 import python from "../../assets/img/projects/python.png"
 import react from "../../assets/img/projects/react.png"
+import { noAuto } from "@fortawesome/fontawesome-svg-core";
 
 
 export default function Projects(props) {
@@ -240,6 +241,9 @@ export default function Projects(props) {
           </div>
         </div>
       </section>
+      <div className="footer-image">
+        <img src= "shape-bg.png" alt= "footer image is not loading "/>
+      </div>
     </div>
   );
 }
