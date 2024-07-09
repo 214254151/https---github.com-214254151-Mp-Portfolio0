@@ -6,6 +6,7 @@ import { Highlights } from "react-bootstrap-icons";
 import "./AboutMe.css";
 
 export default function AboutMe(props) {
+  
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
