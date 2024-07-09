@@ -33,6 +33,7 @@ export default function Projects(props) {
         animateOut: "bounceOutRight",
         dots: true,
         autoplay: true,
+
         smartSpeed: 15000,
 
         Responsive: {
@@ -88,7 +89,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="Figma.png"
+                      src="daisy.jpg"
                       alt="no internet connection"
                     ></img>
                     <h5>Figma design</h5>
@@ -123,7 +124,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="Marvelaap.jpg"
+                      src="mike.png"
                       alt="no internet connection"
                     ></img>
                     <h5>MarvelApp design</h5>
@@ -158,7 +159,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="python.png"
+                      src="lady.png"
                       alt="no internet connection"
                     ></img>
                     <h5>Bank App</h5>
@@ -195,7 +196,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-infor">
                     <img
-                      src="ps.png"
+                      src="man.png"
                       alt="no internet connection"
                     ></img>
                     <h5>Calculator</h5>
