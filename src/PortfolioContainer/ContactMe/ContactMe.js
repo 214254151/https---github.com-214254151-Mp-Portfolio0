@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import "./ContactMe.css"
 import imgBack from "../ContactMe/mailz.jpeg"
 import load2 from "../ContactMe/load2.gif"
@@ -18,6 +18,11 @@ export default function ContactMe(props){
       const fadeInSubscription =
         ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
+        const [name, setName] = useState("")
+        const [email, setEmail] = useState("")
+        const [message, setMessage] = useState("")
+        const [banner, setBanner] = useState("")
+        const [boolean, setBoolean] = useState(false)
 
     return(
         <div className="main-container" id={props.id || ''}>
@@ -31,7 +36,7 @@ export default function ContactMe(props){
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Get in touch 📧",
+                    "Lets connect 📧",
                     1900,
                     
                   ]}
@@ -48,7 +53,31 @@ export default function ContactMe(props){
             <a href="https://github.com/214254151">
               <i class="bi bi-github"></i>
               </a>
+            </div>
+            <div className="back-form">
+                <div className="img-back">
+                    <h4>Send your email here!</h4>
+                    <img src={imgBack} alt="image not found"/>
 
+                </div>
+                <form>
+                    <p>{banner}</p>
+                    <label htmlFor='name'>Name</label>
+                    <input type="name"/>
+
+                    <label htmlFor='email'>Email</label>
+                    <input type="email"/>
+
+                    <label htmlFor='message'>Message</label>
+                    <textarea type="message"/>
+
+                    <div className="send-btn">
+                        <button type="submit">Send
+                            <i className="fa fa-paper-plane"/>
+
+                        </button>
+                    </div>
+                </form>
             </div>
             </div>
         </div>
