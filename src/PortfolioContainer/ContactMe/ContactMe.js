@@ -125,7 +125,9 @@ export default function ContactMe(props){
                     <div className="send-btn">
                         <button type="submit">Send
                            
-
+                          {boolean?(<b className="load">
+                            <img src={load2} alt="error loading the pic!"/>
+                            </b>):""}
                         </button>
                     </div>
                 </form>
