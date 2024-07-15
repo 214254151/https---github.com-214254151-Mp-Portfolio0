@@ -6,6 +6,10 @@ import ScrollService from "../../utilities/ScrollService"
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading"
 import Animations from "../../utilities/Animations"
 import Typical from "react-typical"
+import { Send } from "react-bootstrap-icons"
+import axios from "axios"
+import { toast } from "react-toastify"
+
 
 
 export default function ContactMe(props){
@@ -18,18 +22,46 @@ export default function ContactMe(props){
       const fadeInSubscription =
         ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
-        const [name, setName] = useState("")
-        const [email, setEmail] = useState("")
-        const [message, setMessage] = useState("")
-        const [banner, setBanner] = useState("")
-        const [boolean, setBoolean] = useState(false)
+        const [name, setName] = useState("");
+        const [email, setEmail] = useState("");
+        const [message, setMessage] = useState("");
+        const [banner, setBanner] = useState("");
+        const [boolean, setBoolean] = useState(false);
+
+        const handleName = (e) =>{
+            setName(e.target.value)
+        };
+        const handleMessage = (e) =>{
+            setMessage(e.target.value)
+        };
+        const handleEmail = (e) =>{
+            setEmail(e.target.value)
+        };
+
+        const submitForm = (e) =>{
+          e.preventDefault();
+
+          try{
+               let data = {name, email, message};
+               setBoolean(true);
+               const res = axios.post(`/contact`, data)
+            }
+              catch(error)
+              {
+                console.log(error)
+              };
+
+          
+          
+         
+        }
 
     return(
         <div className="main-container" id={props.id || ''}>
             <ScreenHeading
             title={"Contact Me"}
             subHeading={"Lets keep in touch"}/>
-            <div className="contact-form">
+            <div className="central-form">
             <div className="col">
 
             <h2 className="title">
@@ -60,20 +92,29 @@ export default function ContactMe(props){
                     <img src={imgBack} alt="image not found"/>
 
                 </div>
-                <form>
+                <form onSubmit={submitForm}>
                     <p>{banner}</p>
                     <label htmlFor='name'>Name</label>
-                    <input type="name"/>
+                    <input type="text"
+                     onChange={handleName}
+                     value={name}
+                    />
 
                     <label htmlFor='email'>Email</label>
-                    <input type="email"/>
+                    <input type="email"
+                    onChange={handleEmail}
+                    value={email}
+                    />
 
                     <label htmlFor='message'>Message</label>
-                    <textarea type="message"/>
+                    <textarea type="message"
+                    onChange={handleMessage}
+                    value={message}
+                    />
 
                     <div className="send-btn">
                         <button type="submit">Send
-                            <i className="fa fa-paper-plane"/>
+                           
 
                         </button>
                     </div>
