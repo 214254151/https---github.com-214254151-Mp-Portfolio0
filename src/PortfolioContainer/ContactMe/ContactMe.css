@@ -119,6 +119,7 @@ form{
 button .load img{
     width: 60px;
     color: #000;
+    display: inline;
 
 }
 
