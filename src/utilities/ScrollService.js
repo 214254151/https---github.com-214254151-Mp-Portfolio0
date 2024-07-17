@@ -11,18 +11,18 @@ export default class ScrollService{
         window.addEventListener('scroll', this.checkCurrentScreenUnderViewport);
     }
     scrollToHireMe = ()=>{
-        let contactMeScreen = document.getElementById("Contact Me");
+        let contactMeScreen = document.getElementById("ContactMe");
         if(!contactMeScreen)
             return;
         contactMeScreen.scrollIntoView({ behavior: "smooth" });
     }
 
-    scrollToHireMe = ()=>{
-        let homeScreen = document.getElementById("Homee");
-        if(!homeScreen)
-            return;
-        homeScreen.scrollIntoView({ behavior: "smooth" });
-    }
+    // scrollToHireMe = ()=>{
+    //     let homeScreen = document.getElementById("Home");
+    //     if(!homeScreen)
+    //         return;
+    //     homeScreen.scrollIntoView({ behavior: "smooth" });
+    // }
 
     isElementInView =(elem, type)=>{
         let rec = elem.getBoundingClientRect();

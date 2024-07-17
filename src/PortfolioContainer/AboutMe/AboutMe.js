@@ -38,7 +38,7 @@ export default function AboutMe(props) {
   };
 
   return (
-    <div className="about-me-conatner screen-container" id={props.id || ""}>
+    <div className="about-me-conatner screen-container fade-in" id={props.id || ""}>
       <div className="about-me-parent">
         <ScreenHeading title={"About Me"} subHeading={"Why Choose Me?"} />
         <div className="about-me-card">
