@@ -3,16 +3,20 @@
     justify-content: center;
     height: 140px;
     color: var(--white);
+    position: sticky;
+    top: 0; /* Adjust this value as needed */
+    z-index: 1000;
 }
 
-.header-parent{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    width: 70%;
-    color: var(--white);
+.header-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 70%;
+  color: var(--white); 
 }
+
 .header-logo{
     font-size: 50px;
     font-family: "Poppins ExtraBold";

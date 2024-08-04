@@ -17,12 +17,13 @@ export default class ScrollService{
         contactMeScreen.scrollIntoView({ behavior: "smooth" });
     }
 
-    // scrollToHireMe = ()=>{
-    //     let homeScreen = document.getElementById("Home");
-    //     if(!homeScreen)
-    //         return;
-    //     homeScreen.scrollIntoView({ behavior: "smooth" });
-    // }
+    scrollToHome = ()=>{
+        let homeScreen = document.getElementById("Home");
+        if(!homeScreen)
+            return;
+        homeScreen.scrollIntoView({ behavior: "smooth" });
+    }
+
 
     isElementInView =(elem, type)=>{
         let rec = elem.getBoundingClientRect();

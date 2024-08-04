@@ -31,20 +31,31 @@ export default function ContactMe(props){
         const handleName = (e) =>{
             setName(e.target.value)
         };
+
+        const handleEmail = (e) =>{
+          setEmail(e.target.value)
+        };
+
         const handleMessage = (e) =>{
             setMessage(e.target.value)
         };
-        const handleEmail = (e) =>{
-            setEmail(e.target.value)
-        };
+
+        
+        
 
         const submitForm = async(e) =>{
           e.preventDefault();
 
           try{
-               let data = {name, email, message};
+
+            let data ={
+              name: name,
+              email: email,
+              message: message, };
+            
                setBoolean(true);
                const res = await axios.post(`/contact`, data)
+
                if(name.length === 0 || email.length === 0 || message.length === 0){
                 setBanner(res.data.msg);
                 toast.error(res.data.msg);
@@ -60,10 +71,6 @@ export default function ContactMe(props){
               {
                 console.log(error)
               };
-
-          
-          
-         
         }
 
     return(
