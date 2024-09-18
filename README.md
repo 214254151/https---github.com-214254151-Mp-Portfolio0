@@ -75,4 +75,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Backend instalation:
 ## Install dependencies
-    npm i install concurrently cors dotenvy express nodemailer nodemon
+    npm i install 
+## concurrently
+npm install concurrently
+    = to rum npm multiple script at the same time. 
+## cors 
+npm install cors
+    = control access to location outside the domain. To add middlware to the application
+
+##  dotenvy
+npm install dotenv
+    = allows you to seperate secrets from your source code. eg: password and id when you want to publisg to github.  
+## express
+npm install express
+    = a framework for building web applications.Allowss for easy routing
+##  nodemailer
+npm install nodemailer
+    = a package for sending emails.
+##  nodemon
+npm install nodemon
+= a package for restarting the server when you make changes to the code.
