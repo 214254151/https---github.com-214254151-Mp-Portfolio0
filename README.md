@@ -94,4 +94,4 @@ npm install nodemailer
     = a package for sending emails.
 ##  nodemon
 npm install nodemon
-= a package for restarting the server when you make changes to the code.
+= a package for restarting the server when you make changes to the code...
