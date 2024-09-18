@@ -77,7 +77,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Install dependencies
     npm i install 
 ## concurrently
-npm install concurrently
+#    npm install concurrently
     = to rum npm multiple script at the same time. 
 ## cors 
 npm install cors
