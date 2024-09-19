@@ -7,7 +7,7 @@ router.post('/contact', (req, res)=>{
         return res.json({msg: "please fill athe the fields"});
 
         // transpot object
-        let smtpTransport = nodemailer.createTransport({
+        let smtpTransporter = nodemailer.createTransport({
             service: 'Gmail',
             port:465,
             aut:{
@@ -36,5 +36,17 @@ router.post('/contact', (req, res)=>{
 
 
         }
-    }
+        // Transport sending the mail
+        smtpTransporter.sendMail(mailOptions,(error)=>{
+            try{
+                    if(error)
+                    return res.status(400).json({msg: "Please fill all the fields!"})
+                }
+                catch(error){
+                    if(error)
+                    return res.status(500).json({msg: "The is server error!"})
+                    res.status(200).json({msg: "Thank you for contacting Abongile!"})
+                }
+            })
+        }
 }) 
