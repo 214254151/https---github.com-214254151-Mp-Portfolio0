@@ -12,6 +12,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// cinfiguring sever
+app.use("/", contactRoute);
+
 // creating the port and shafling it to the env
 const port = process.env.PORT || 5001;
 app.listen(port, console.log('server listening to port 5001 only'));
