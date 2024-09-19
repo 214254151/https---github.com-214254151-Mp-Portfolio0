@@ -12,4 +12,4 @@ app.use(cors());
 
 // creating the port and shafling it to the env
 const port = process.env.PORT || 5001;
-app.listen(port, console.log('server listening to port 5001'));
+app.listen(port, console.log('server listening to port 5001 only'));
