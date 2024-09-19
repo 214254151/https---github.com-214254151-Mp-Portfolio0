@@ -5,7 +5,7 @@ router.post('/contact', (req, res)=>{
     let data = req.body
     if(data.name.length === 0 || data.email.length === 0 || data.message.length === 0){
         return res.json({msg: "please fill athe the fields"});
-
+    }
         // transpot object
         let smtpTransporter = nodemailer.createTransport({
             service: 'Gmail',
@@ -48,5 +48,5 @@ router.post('/contact', (req, res)=>{
                     res.status(200).json({msg: "Thank you for contacting Abongile!"})
                 }
             })
-        }
 }) 
+module.exports=router
